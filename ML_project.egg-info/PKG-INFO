@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ML-project
+Version: 0.0.1
+Author-email: shivamsingh8496@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn

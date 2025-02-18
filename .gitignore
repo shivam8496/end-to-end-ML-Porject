@@ -1,0 +1,6 @@
+venv/
+artifacts/
+catboost_info/
+logs/
+
+StudentsPerformance.csv
