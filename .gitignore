@@ -1,5 +1,6 @@
 venv/
-artifacts/
+venv2/
+# artifacts/
 catboost_info/
 logs/
 
