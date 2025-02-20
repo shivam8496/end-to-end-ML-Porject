@@ -54,10 +54,22 @@ class Evaluate:
                 train_score = r2_score(Y_train,Y_pred_train)
                 test_score = r2_score(Y_test,Y_pred_test)
                 report[list(models.keys())[i]]=test_score
+                print(f"\n")
                 
             return report
         except Exception as e:
             raise CustomException(e,sys)
+
+def load_data(file_path):
+    try:
+        with open(file_path,"rb") as file_obj:
+            model=dill.load(file_obj)
+        return model
+    except Exception as e:
+        raise CustomException(e,sys)
+
+
+
 
 
 
